@@ -1,5 +1,9 @@
 :-consult('../subject/subject.facts.pl').
 
+% Let assertion of new facts
+:-dynamic(professor/1).
+:-dynamic(teaches/2).
+
 professor('Sara Bianco').
 professor('Teresa Rondon').
 professor('Yoel Gutierrez').

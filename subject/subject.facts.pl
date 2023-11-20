@@ -1,3 +1,6 @@
+:-dynamic(common_subject/1).
+:-dynamic(featured_subject/1).
+
 common_subject('Calculo Diferencial').
 common_subject('Calculo Integral').
 common_subject('Calculo Vectorial').
